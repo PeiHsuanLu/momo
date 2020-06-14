@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<link rel="icon" href="/main/favicon.ico" type="image/ico"/>
+<title>momo作品集</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"> 
+<link rel="stylesheet" type="text/css" href="images/Layout.css"> 
+<link rel="stylesheet" type="text/css" href="images/animate.css"> 
+<script language="javascript" type="text/javascript" src="images/jquery-1.4.2.js"></script> 
+<script language="javascript" type="text/javascript" src="images/main.js"></script> 
+</head>
+
+<body>
+	
+  <!--↓wrapper↓--> 
+  <div class="WRAPPER"> 
+    
+   <div class="mainarea">
+
+    <!--TOP--> 
+	   <div class="Area Area1220 Area_top for_pc">
+		   <img src="images/title.png"> </div>
+	   
+    <div class="Area Area1220 for_pc"> 
+			<img src="images/pic01.png" style="margin-bottom: 25px; margin-top: 25px;">	
+				<img src="images/pic02.png" style="margin-bottom: 25px;">
+					<img src="images/pic03.png" style="margin-bottom: 25px;">
+						<img src="images/pic04.png">
+	</div> 
+	   
+	   
+	    <div class="Area Area1220 Area_top for_phone">
+		   <img src="images/m_title.png"> </div>
+	   
+	       <div class="Area Area960 for_phone"> 
+			<img src="images/m_pic01.png" style="margin-bottom: 5vw; margin-top: 5vw;">	
+				<img src="images/m_pic02.png" style="margin-bottom: 5vw;">
+					<img src="images/m_pic03.png" style="margin-bottom: 5vw;">
+						<img src="images/m_pic04.png">
+	</div> 
+
+	  
+   </div> 
+   <!-- mainarea結束 --> 
+
+  </div> 
+  <!--↑wrapper↑--> 
+
+  <!--wow--> 
+  <script src="images/wow.min.js"></script> 
+  <script>
+    new WOW().init();
+  </script> 
+
+  <!--延遲載圖--> 
+  <script language="javascript" type="text/javascript" src="https://www.momoshop.com.tw/ecm/js/jquery.lazyload.js"></script> 
+  <script language="javascript" type="text/javascript">
+        /** 延遲載圖 **/
+        var imglazy = ".articleList img.lazy";
+        $(function () {  
+          $(imglazy).show().lazyload({
+              effect : "fadeIn"
+              });
+        });
+  </script>
+
+
+
+
+</body>
+</html>
